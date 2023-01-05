@@ -1,34 +1,39 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Brandt":
+  - firstname: ["Adam", "A.", "Adam R.", "A. R."]
+    url: https://profiles.stanford.edu/adam-brandt
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Bi":
+  - firstname: ["Xiaotao", "X.", "Xiaotao Tony", "Xiaotao T.", "X. T."]
+    url: https://chbe.ubc.ca/xiaotao-bi/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Paletta":
+  - firstname: ["Quentin", "Q."]
+    url: https://merq2019.github.io/quentinpaletta/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Ravikumar":
+  - firstname: ["Arvind P.", "A. P."]
+    url: https://www.arvindravikumar.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Bergerson":
+  - firstname: ["Jouke", "J."]
+    url: https://ucalgary.ca/energy-technology-assessment/our-team/principal-investigator
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Zamzam":
+  - firstname: ["Ahmed", "A."]
+    url: https://www.nrel.gov/research/staff/ahmed-zamzam.html
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Long":
+  - firstname: ["Wennan", "W."]
+    url: https://www.linkedin.com/in/wennanlong/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Lasenby":
+  - firstname: ["Joan", "J."]
+    url: http://www-sigproc.eng.cam.ac.uk/Main/JL
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Scott":
+  - firstname: ["Andea", "Andea Jewel", "A. J.", "Andea J."]
+    url: https://profiles.stanford.edu/andea-scott?tab=bio
+
+"Zelikman":
+  - firstname: ["Eric", "E."]
+    url: https://zelikman.me/
