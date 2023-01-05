@@ -1,97 +1,104 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Energy Science and Engineering 
+      institution: Stanford University, Stanford, United States
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advised by <a href='https://profiles.stanford.edu/adam-brandt'>Adam Brandt</a>
+        #- title: Description 3.
+          #contents:
+            #- Sub-description 1.
+            #- Sub-description 2.
+    - title: M.A.Sc. in Chemical Engineering
+      institution: University of British Columbia, Vancouver, Canada
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - <p style="display:inline">GPA:</p> 90.3/100.0
+        - Advised by <a href='https://chbe.ubc.ca/xiaotao-bi/'>Xiaotao Tony Bi</a>
+    - title: B.Eng. in Environmental Engineering
+      institution: Harbin Institute of Technology, Harbin, China
+      year: 2015
+      description:
+        - <p style="display:inline">GPA:</p> 93.3/100.0
+        - 1st rank out of 67 students
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Dept. of Energy Science and Engineering, Stanford University
+      year: 2018-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        #- title: <b>Vision-based short-term solar forecasting using deep learning</b>
+        - Vision-based short-term solar forecasting using deep learning
+          #contents:
+           # - Open-source sky image datasets for solar forecasting
+           # - Transfer learning for solar forecasting with multi-location data
+           # - Stochastic sky video prediction for probabilistic solar forecasting
+           # - Resampling and data augmentation for solar forecasting
+           # - Sky-condition-specific models for solar forecasting
+    - title: Research Assistant
+      institution: Dept. of Chemical and Biological Engineering, University of British Columbia
+      year: 2015-2018
       description:
-        - Description 1.
-        - Description 2.
+        #- title: <b>Environmental and economic analysis of liquid fuels from forest residues</b>
+        - Environmental and economic analysis of liquid fuels from forest residues
+          #contents:
+           # - Built life cycle and economic models for biofuels from forest residues
+           # - Compared the environmental and economic impacts of three different supply chain designs.
+           # - Conducted sensitivity analysis and discounted cash flow rate of return analysis via Excel VBA.
+           # - Contributed to the first performance benchmark of converting biomass to biofuels in British Columbia, Canada.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Internship
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Intern
+      institution: Seven Generations Energy Ltd. (7Gs), Vancouver, Canada
+      year: Jul. 2017-Feb. 2018
+      description: Life cycle assessment of 7Gs’ hypothetical LNG supply chain
+    - title: Research Intern
+      institution: University of Manitoba, Winnipeg, Canada
+      year: Jun.-Sep. 2014
+      description: Pre-treatment of landfill leachate and municipal wastewater mixture
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2017
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Mitacs Accelerate Program Fellowship Award, Mitacs Canada
+    - year: 2015
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Faculty of Applied Science Graduate Award, University of British Columbia
+        - International Tuition Award, University of British Columbia
+        - Mitacs Globalink Graduate Fellowship Award, Mitacs Canada
+        - Outstanding Graduate, Harbin Institute of Technology
+    - year: 2014
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Outstanding Student Award, Ministry of Education of Heilongjiang Province
+        - Endress+Hauser Scholarship, Endress+Hauser Flowtec (China) Co., Ltd.
+    - year: 2013
       items:
-        - Description 1.
-        - Description 2.
+        - Scholarship for Academic Excellence, Harbin Institute of Technology
+        - National Scholarship, Ministry of Education of China
 
-- title: Other Interests
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Stanford University, Stanford, United States
+      year: Mar.-Jun. 2021
+      items: 
+        - <p style="display:inline">ENERGY 291:</p> Optimization of Energy Systems, 30 students
+    - title: Co-instructor and Teaching Assistant
+      institution: University of British Columbia, Vancouver, Canada
+      year: Jan.-Apr. 2016
+      items:
+        - <p style="display:inline">CHBE 366:</p> Chemical Engineering Laboratory, 60 students
+
+- title: Professional Services
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <p style="display:inline">Journal reviewer:</p> Solar Energy, Journal of Cleaner Production

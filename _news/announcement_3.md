@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-11-03
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Transfer learning paper based on <a href='https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset'>SKIPP'D</a> and other two datasets is available on <a href='https://arxiv.org/abs/2211.02108'>arXiv</a>.
