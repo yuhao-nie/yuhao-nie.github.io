@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: 
-    <!--<p>555 your office number</p>-->
+    <!--<p>555 your office number</p>
     <p>Green Earth Sciences Bldg.</p>
-    <p>Stanford, CA 94305</p>
+    <p>Stanford, CA 94305</p>-->
 
 
 news: true  # includes a list of news items
