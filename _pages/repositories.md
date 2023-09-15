@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: I am a supporter of open research and I try to open source the associated codes and data of my research.
+description: I strongly support research openness and accessibility by open-sourcing my research code and data.
 nav: true
 nav_order: 4
 ---
