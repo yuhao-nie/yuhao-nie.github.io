@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: I strongly support research openness and accessibility by open-sourcing my research code and data.
+description: Most of my research has code open sourced on GitHub.
 nav: true
 nav_order: 4
 ---

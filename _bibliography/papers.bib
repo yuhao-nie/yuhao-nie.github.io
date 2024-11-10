@@ -1,5 +1,56 @@
 ---
 ---
+@article{nie2024sky,
+  abbr={AE},
+  selected={false},
+  title={Sky image-based solar forecasting using deep learning with heterogeneous multi-location data: Dataset fusion versus transfer learning},
+  author={Nie, Yuhao and Paletta, Quentin and Scott, Andea and Pomares, Luis M. and Arbod, Guillaume and Sgouridis, Sgouris and Lasenby, Joan and Brandt, Adam},
+  journal={Applied Energy},
+  volume={369},
+  pages={123467},
+  year={2024},
+  abstract={Solar forecasting from ground-based sky images has shown great promise in reducing the uncertainty in solar power generation. With more and more sky image datasets open sourced in recent years, the development of accurate and reliable deep learning-based solar forecasting methods has seen a huge growth in potential. In this study, we explore three different training strategies for solar forecasting models by leveraging three heterogeneous datasets collected globally with different climate patterns. Specifically, we compare the performance of local models trained individually based on single datasets and global models trained jointly based on the fusion of multiple datasets, and further examine the knowledge transfer from pre-trained solar forecasting models to a new dataset of interest. The results suggest that the local models work well when deployed locally, but significant errors are observed when applied offsite. The global model can adapt well to individual locations at the cost of a potential increase in training efforts. Pre-training models on a large and diversified source dataset and transferring to a target dataset generally achieves superior performance over the other two strategies. With 80% less training data, it can achieve comparable performance as the local baseline trained using the entire dataset.},
+  html={https://doi.org/10.1016/j.apenergy.2024.123467},
+  preview={SF_transfer_learning.png}
+}
+
+@article{nie2024skygpt,
+  selected={true},
+  title={SkyGPT: Probabilistic ultra-short-term solar forecasting using synthetic sky images from physics-constrained VideoGPT},
+  author={Nie, Yuhao and Zelikman, Eric and Scott, Andea and Paletta, Quentin and Brandt, Adam},
+  journal={Advances in Applied Energy},
+  volume={14},
+  pages={100172},
+  year={2024},
+  abstract={In recent years, deep learning-based solar forecasting using all-sky images has emerged as a promising approach for alleviating uncertainty in PV power generation. However, the stochastic nature of cloud movement remains a major challenge for accurate and reliable solar forecasting. With the recent advances in generative artificial intelligence, the synthesis of visually plausible yet diversified sky videos has potential for aiding in forecasts. In this study, we introduce \emph{SkyGPT}, a physics-informed stochastic video prediction model that is able to generate multiple possible future images of the sky with diverse cloud motion patterns, by using past sky image sequences as input. Extensive experiments and comparison with benchmark video prediction models demonstrate the effectiveness of the proposed model in capturing cloud dynamics and generating future sky images with high realism and diversity. Furthermore, we feed the generated future sky images from the video prediction models for 15-minute-ahead probabilistic solar forecasting for a 30-kW roof-top PV system, and compare it with an end-to-end deep learning baseline model SUNSET and a smart persistence model. Better PV output prediction reliability and sharpness is observed by using the predicted sky images generated with SkyGPT compared with other benchmark models, achieving a continuous ranked probability score (CRPS) of 2.81 (13\% better than SUNSET and 23\% better than smart persistence) and a Winkler score of 26.70 for the test set. Although an arbitrary number of futures can be generated from a historical sky image sequence, the results suggest that 10 future scenarios is a good choice that balances probabilistic solar forecasting performance and computational cost.},
+  html={https://doi.org/10.1016/j.adapen.2024.100172},
+  preview={skygpt-demo.gif},
+  code={https://github.com/yuhao-nie/SkyGPT}
+}
+
+@article{paletta2024improving,
+  selected={false},
+  title={Improving cross-site generalisability of vision-based solar forecasting models with physics-informed transfer learning},
+  author={Paletta, Quentin and Nie, Yuhao and Saint-Drenan, Yves-Marie and Le Saux, Bertrand},
+  journal={Energy Conversion and Management},
+  volume={309},
+  pages={118398},
+  year={2024},
+  abstract={Forecasting solar energy from cloud cover observations is crucial to truly anticipate future changes in power supply. On an intra-hour timescale, ground-level sky cameras located near a solar site offer the most valuable source of information on incoming clouds. In the literature, the analysis of these hyperlocal cloud cover observations for solar modelling is increasingly performed by deep learning algorithms trained and tested on years’ worth of local data. However, this approach is not suitable for industrial applications since solar energy producers cannot wait for years of local data collection to start generating reliable solar forecasts. However, they might own relevant multi-location data collected from other solar sites over time. This study thus explores the capability of such algorithms to generalise beyond their training location in two data scarce conditions: zero-shot learning (i.e. direct application of a trained model to a new location without local fine-tuning) and few-shot learning (i.e. calibration of a pre-trained model based on very limited local data such as a day of observations). Zero-shot learning results show that using local clear-sky models to normalise output variables (e.g. solar irradiance or solar energy production values) facilitates cross-dataset transfer learning. Compared to previous methods, the resulting forecast skill increases by close to 25% in cloudy conditions and by more than 700% in clear-sky conditions. An additional gain is observed when local data collected in overcast weather conditions are used for model calibration via few-shot learning. The corresponding neural networks trained in data scarce conditions achieve comparable performance to expert local models based on years of training data. These promising results shed light on the potential of large-scale and multi-location sky image datasets to improve the generalisation skills of solar forecasting algorithms.},
+  html={https://doi.org/10.1016/j.enconman.2024.118398},
+  preview={few-shot_learning_illustration.jpg}
+}
+
+@inproceedings{nie2024skyimagenet,
+  selected={false},
+  title={SkyImageNet: Towards a large-scale sky image dataset for solar power forecasting},
+  author={Nie, Yuhao and Paletta, Quentin and Wang, Sherrie},
+  booktitle={Tackling Climate Change with Machine Learning workshop at the International Conference on Learning Representations (ICLR)},
+  year={2024},
+  pdf={https://hal.science/hal-04596740/document},
+  preview={skyimagenet.gif}
+}
+
 @article{nie2024open,
   selected={true},
   title={Open-source sky image datasets for solar forecasting with deep learning: A comprehensive survey},
@@ -21,18 +72,8 @@
   abstract={Renewable energy forecasting is crucial for integrating variable energy sources into the grid. It allows power systems to address the intermittency of the energy supply at different spatiotemporal scales. To anticipate the future impact of cloud displacements on the energy generated by solar facilities, conventional modeling methods rely on numerical weather prediction or physical models, which have difficulties in assimilating cloud information and learning systematic biases. Augmenting computer vision with machine learning overcomes some of these limitations by fusing real-time cloud cover observations with surface measurements acquired from multiple sources. This Review summarizes recent progress in solar forecasting from multisensor Earth observations with a focus on deep learning, which provides the necessary theoretical framework to develop architectures capable of extracting relevant information from data generated by ground-level sky cameras, satellites, weather stations, and sensor networks. Overall, machine learning has the potential to significantly improve the accuracy and robustness of solar energy meteorology; however, more research is necessary to realize this potential and address its limitations.},
   publisher={Elsevier},
   html={https://doi.org/10.1016/j.adapen.2023.100150},
-  preview= {vision_based_solar_forecasting_review.jpg}
-}
-
-@article{nie2023skygpt,
-  selected={true},
-  title={SkyGPT: Probabilistic short-term solar forecasting using synthetic sky videos from physics-constrained VideoGPT},
-  author={Nie, Yuhao and Zelikman, Eric and Scott, Andea and Paletta, Quentin and Brandt, Adam},
-  journal={arXiv preprint arXiv:2306.11682},
-  year={2023},
-  abstract={In recent years, deep learning-based solar forecasting using all-sky images has emerged as a promising approach for alleviating uncertainty in PV power generation. However, the stochastic nature of cloud movement remains a major challenge for accurate and reliable solar forecasting. With the recent advances in generative artificial intelligence, the synthesis of visually plausible yet diversified sky videos has potential for aiding in forecasts. In this study, we introduce \emph{SkyGPT}, a physics-informed stochastic video prediction model that is able to generate multiple possible future images of the sky with diverse cloud motion patterns, by using past sky image sequences as input. Extensive experiments and comparison with benchmark video prediction models demonstrate the effectiveness of the proposed model in capturing cloud dynamics and generating future sky images with high realism and diversity. Furthermore, we feed the generated future sky images from the video prediction models for 15-minute-ahead probabilistic solar forecasting for a 30-kW roof-top PV system, and compare it with an end-to-end deep learning baseline model SUNSET and a smart persistence model. Better PV output prediction reliability and sharpness is observed by using the predicted sky images generated with SkyGPT compared with other benchmark models, achieving a continuous ranked probability score (CRPS) of 2.81 (13\% better than SUNSET and 23\% better than smart persistence) and a Winkler score of 26.70 for the test set. Although an arbitrary number of futures can be generated from a historical sky image sequence, the results suggest that 10 future scenarios is a good choice that balances probabilistic solar forecasting performance and computational cost.},
-  pdf={https://arxiv.org/pdf/2306.11682.pdf},
-  preview={skygpt-demo.gif}
+  preview= {vision_based_solar_forecasting_review.jpg},
+  media={https://www.pv-magazine.com/2023/09/20/computer-vision-for-solar-forecasts/?utm_source=dlvr.it&utm_medium=linkedin}
 }
 
 @article{nie2023skipp,
@@ -46,18 +87,8 @@
   abstract={Large-scale integration of photovoltaics (PV) into electricity grids is challenged by the intermittent nature of solar power. Sky-image-based solar forecasting using deep learning has been recognized as a promising approach to predicting the short-term fluctuations. However, there are few publicly available standardized benchmark datasets for image-based solar forecasting, which limits the comparison of different forecasting models and the exploration of forecasting methods. To fill these gaps, we introduce SKIPP’D—a SKy Images and Photovoltaic Power Generation Dataset. The dataset contains three years (2017–2019) of quality-controlled down-sampled sky images and PV power generation data that is ready-to-use for short-term solar forecasting using deep learning. In addition, to support the flexibility in research, we provide the high resolution, high frequency sky images and PV power generation data as well as the concurrent sky video footage. We also include a code base containing data processing scripts and baseline model implementations for researchers to reproduce our previous work and accelerate their research in solar forecasting.},
   publisher={Elsevier},
   html={https://doi.org/10.1016/j.solener.2023.03.043},
-  preview={skippd_demo.png}
-}
-
-@article{nie2022sky,
-  abbr={arXiv},
-  selected={false},
-  title={Sky-image-based solar forecasting using deep learning with multi-location data: training models locally, globally or via transfer learning?},
-  author={Nie, Yuhao and Paletta, Quentin and Scott, Andea and Pomares, Luis M. and Arbod, Guillaume and Sgouridis, Sgouris and Lasenby, Joan and Brandt, Adam},
-  year={2022},
-  abstract={Solar forecasting from ground-based sky images has shown great promise in reducing the uncertainty in solar power generation. With more and more sky image datasets open sourced in recent years, the development of accurate and reliable deep learning-based solar forecasting methods has seen a huge growth in potential. In this study, we explore three different training strategies for solar forecasting models by leveraging three heterogeneous datasets collected globally with different climate patterns. Specifically, we compare the performance of local models trained individually based on single datasets and global models trained jointly based on the fusion of multiple datasets, and further examine the knowledge transfer from pre-trained solar forecasting models to a new dataset of interest. The results suggest that the local models work well when deployed locally, but significant errors are observed when applied offsite. The global model can adapt well to individual locations at the cost of a potential increase in training efforts. Pre-training models on a large and diversified source dataset and transferring to a target dataset generally achieves superior performance over the other two strategies. With 80% less training data, it can achieve comparable performance as the local baseline trained using the entire dataset.},
-  pdf={https://arxiv.org/abs/2211.02108},
-  preview={SF_transfer_learning.png}
+  preview={skippd_demo.png},
+  code={https://github.com/yuhao-nie/Stanford-solar-forecasting-dataset}
 }
 
 @article{nie2021resampling,
@@ -87,7 +118,8 @@
   publisher={ACS Publications},
   abstract={Natural gas (NG) produced in Western Canada is a major and growing source of Canada’s energy and greenhouse gas (GHG) emissions portfolio. Despite recent progress, there is still only limited understanding of the sources and drivers of Western Canadian greenhouse gas (GHG) emissions. We conduct a case study of a production facility based on Seven Generation Energy Ltd.’s Western Canadian operations and an upstream NG emissions intensity model. The case study upstream emissions intensity is estimated to be 3.1–4.0 gCO2e/MJ NG compared to current best estimates of British Columbia (BC) emissions intensities of 6.2–12 gCO2e/MJ NG and a US average estimate of 15 gCO2e/MJ. The analysis reveals that compared to US studies, public GHG emissions data for Western Canada is insufficient as current public data satisfies only 50% of typical LCA model inputs. Company provided data closes most of these gaps (∼80% of the model inputs). We recommend more detailed data collection and presentation of government reported data such as a breakdown of vented and fugitive methane emissions by source. We propose a data collection template to facilitate improved GHG emissions intensity estimates and insight about potential mitigation strategies.},
   html={https://pubs.acs.org/doi/full/10.1021/acs.est.0c06353},
-  pdf={https://www.researchgate.net/publication/353232423_Greenhouse_Gas_Emissions_of_Western_Canadian_Natural_Gas_Proposed_Emissions_Tracking_for_Life_Cycle_Modeling}
+  pdf={https://www.researchgate.net/publication/353232423_Greenhouse_Gas_Emissions_of_Western_Canadian_Natural_Gas_Proposed_Emissions_Tracking_for_Life_Cycle_Modeling},
+  preview={LNG_LCA_proposed_emission_tracking.jpeg}
 }
 
 @article{nie2020pv,
@@ -104,7 +136,8 @@
   abstract={Photovoltaics (PV), the primary use of solar energy, is growing rapidly. However, the variable output of PV under changing weather conditions may hinder the large-scale deployment of PV. In this study, we propose a two-stage classification-prediction framework to predict contemporaneous PV power output from sky images (a so-called “nowcast”), and compare it with an end-to-end convolution neural network (CNN). The proposed framework first classifies input images into different sky conditions and then the classified images are sent to specific sub-models for PV output prediction. Two types of classifiers are developed and compared: (1) a CNN-based classifier trained on clear sky index (CSI)-labeled sky images and (2) a physics-based non-parametric classifier based on a threshold of fractional cloudiness of sky images. Different numbers of classification categories are also examined. The results suggest that the cloudiness-based classifier is more suitable than the CSI-based classifier for the framework, and the 3-class classification (i.e., sunny, cloudy, overcast) is found to be the optimal choice. We then fine-tune the cloudiness threshold for the non-parametric classifier and tailor the architecture for each sky-condition-specific sub-model. Under the best design, the proposed framework can achieve a root mean squared error (RMSE) of 2.20 kW (relative to a 30 kW rated PV array) on the test set comprising 18 complete days (9 sunny, RMSE = 0.69 kW; 9 cloudy, RMSE = 3.06 kW). Compared with the end-to-end CNN baseline model, the overall prediction performance can be improved by 6% (7% in sunny and 6% in cloudy), with 6% fewer trainable parameters needed in the architecture.},
   html={https://aip.scitation.org/doi/full/10.1063/5.0014016},
   pdf={https://www.researchgate.net/profile/Yuhao-Nie/publication/343856792_PV_power_output_prediction_from_sky_images_using_convolutional_neural_network_The_comparison_of_sky-condition-specific_sub-models_and_an_end-to-end_model/links/5f45669ea6fdcccc4302fa59/PV-power-output-prediction-from-sky-images-using-convolutional-neural-network-The-comparison-of-sky-condition-specific-sub-models-and-an-end-to-end-model.pdf},
-  preview={sky_condition_model_demo.png}
+  preview={sky_condition_model_demo.png},
+  code={https://github.com/yuhao-nie/Cloud-dection-in-sky-images}
 }
 
 @article{nie2020greenhouse,
@@ -119,7 +152,8 @@
   publisher={Elsevier},
   abstract={Liquefied natural gas (LNG) is a promising alternative to coal to mitigate the greenhouse gas (GHG) and particulate emissions from power, industry, and district heating in China. While numerous existing life cycle assessment (LCA) studies estimate the GHG footprint of LNG, large variation exists in these results. Such variability could be caused by differing project designs, system boundaries, modeling methods and data sources. It is not clear which of these factors is the most important. Here, three research groups from Canada and the US performed independent LCAs of the same planned LNG supply chain from Canada to China. The teams applied different methods and assumptions but used aligned system boundaries and worked with a single upstream producer to obtain production data. The GHG emissions of Canadian LNG to China for power and heat generation were found to be 427–556 g CO2-eq/kWh and 81–92 g CO2-eq/MJ. Compared with Chinese coal for power generation, 291–687 g CO2-eq (34%–62%) reduction can be achieved per kWh of power generated. The central tendency in each study is aligned more closely than the overall uncertainty range: thus, uncertainty caused by fundamental data challenges likely outweighs variability caused by use of different LCA methods. Differences in assumptions and methods among the three teams lead to moderate variation at the stage level, but in better agreement at the life-cycle level, showing the existence of compensating variation. Given the robustness to very different LCA methods, existing literature variation may be explained by project-, location- and operator-dependent parameters.},
   html={https://www.sciencedirect.com/science/article/pii/S0959652620307484},
-  preview={LNG_LCA.png}
+  preview={LNG_LCA.png},
+  media={https://www.nxtmine.com/energy-metals/kitimat-b-c-thriving-alongside-emerging-lng-industry/}
 }
 
 @article{ravikumar2020repeated,
@@ -134,20 +168,8 @@
   publisher={IOP Publishing},
   abstract={Reducing methane emissions from the oil and gas industry is a critical climate action policy tool in Canada and the US. Optical gas imaging-based leak detection and repair (LDAR) surveys are commonly used to address fugitive methane emissions or leaks. Despite widespread use, there is little empirical measurement of the effectiveness of LDAR programs at reducing long-term leakage, especially over the scale of months to years. In this study, we measure the effectiveness of LDAR surveys by quantifying emissions at 36 unconventional liquids-rich natural gas facilities in Alberta, Canada. A representative subset of these 36 facilities were visited twice by the same detection team: an initial survey and a post-repair re-survey occurring ∼0.5–2 years after the initial survey. Overall, total emissions reduced by 44% after one LDAR survey, combining a reduction in fugitive emissions of 22% and vented emissions by 47%. Furthermore, >90% of the leaks found in the initial survey were not emitting in the re-survey, suggesting high repair effectiveness. However, fugitive emissions reduced by only 22% because of new leaks that occurred between the surveys. This indicates a need for frequent, effective, and low-cost LDAR surveys to target new leaks. The large reduction in vent emissions is associated with potentially stochastic changes to tank-related emissions, which contributed ∼45% of all emissions. Our data suggest a key role for tank-specific abatement strategies as an effective way to reduce oil and gas methane emissions. Finally, mitigation policies will also benefit from more definitive classification of leaks and vents.},
   html={https://iopscience.iop.org/article/10.1088/1748-9326/ab6ae1/meta},
-  pdf={https://www.researchgate.net/publication/338566300_Repeated_leak_detection_and_repair_surveys_reduce_methane_emissions_over_scale_of_years}
-}
-
-@article{long2020optimal,
-  abbr={IJEPE},
-  title={Optimal design of the power generation network in California: Moving towards 100\% renewable electricity by 2045},
-  author={Long, Wennan and Nie, Yuhao and Li, Yunan and Brandt, Adam},
-  journal={International Journal of Energy and Power Engineering},
-  volume={14},
-  number={2},
-  pages={27--37},
-  year={2020},
-  abstract={To fight against climate change, California government issued the Senate Bill No. 100 (SB-100) in 2018 September, which aims at achieving a target of 100% renewable electricity by the end of 2045. A capacity expansion problem is solved in this case study using a binary quadratic programming model. The optimal locations and capacities of the potential renewable power plants (i.e., solar, wind, biomass, geothermal and hydropower), the phase-out schedule of existing fossil-based (nature gas) power plants and the transmission of electricity across the entire network are determined with the minimal total annualized cost measured by net present value (NPV). The results show that the renewable electricity contribution could increase to 85.9% by 2030 and reach 100% by 2035. Fossil-based power plants will be totally phased out around 2035 and solar and wind will finally become the most dominant renewable energy resource in California electricity mix.},
-  pdf={https://publications.waset.org/10011055/optimal-design-of-the-power-generation-network-in-california-moving-towards-100-renewable-electricity-by-2045}
+  pdf={https://www.researchgate.net/publication/338566300_Repeated_leak_detection_and_repair_surveys_reduce_methane_emissions_over_scale_of_years},
+  preview={LDAR.jpg}
 }
 
 @article{nie2018life,
@@ -163,5 +185,41 @@
   publisher={Springer},
   html={https://link.springer.com/article/10.1186/s13068-018-1019-x},
   pdf={https://link.springer.com/content/pdf/10.1186/s13068-018-1019-x.pdf?pdf=button%20sticky},
-  preview={HTL_LCA.png}
+  preview={HTL_LCA.png},
+  abstract={
+Biofuels from hydrothermal liquefaction (HTL) of abundantly available forest residues in British Columbia (BC) can potentially make great contributions to reduce the greenhouse gas (GHG) emissions from the transportation sector. A life-cycle assessment was conducted to quantify the GHG emissions of a hypothetic 100 million liters per year HTL biofuel system in the Coast Region of BC. Three scenarios were defined and investigated, namely, supply of bulky forest residues for conversion in a central integrated refinery (Fr-CIR), HTL of forest residues to bio-oil in distributed biorefineries and subsequent upgrading in a central oil refinery (Bo-DBR), and densification of forest residues in distributed pellet plants and conversion in a central integrated refinery (Wp-CIR).
+
+The life-cycle GHG emissions of HTL biofuels is 20.5, 17.0, and 19.5 g CO2-eq/MJ for Fr-CIR, Bo-DBR, and Wp-CIR scenarios, respectively, corresponding to 78–82% reduction compared with petroleum fuels. The conversion stage dominates the total GHG emissions, making up more than 50%. The process emitting most GHGs over the life cycle of HTL biofuels is HTL buffer production. Transportation emission, accounting for 25% of Fr-CIR, can be lowered by 83% if forest residues are converted to bio-oil before transportation. When the credit from biochar applied for soil amendment is considered, a further reduction of 6.8 g CO2-eq/MJ can be achieved.
+
+Converting forest residues to bio-oil and wood pellets before transportation can significantly lower the transportation emission and contribute to a considerable reduction of the life-cycle GHG emissions. Process performance parameters (e.g., HTL energy requirement and biofuel yield) and the location specific parameter (e.g., electricity mix) have significant influence on the GHG emissions of HTL biofuels. Besides, the recycling of the HTL buffer needs to be investigated to further improve the environmental performance of HTL biofuels.}
+}
+
+@article{nie2018techno,
+  abbr={},
+  selected={false},
+  title={Techno-economic assessment of transportation biofuels from hydrothermal liquefaction of forest residues in British Columbia},
+  author={Nie, Yuhao and Bi, Xiaotao},
+  journal={Energy},
+  volume={153},
+  pages={464--475},
+  year={2018},
+  publisher={Elsevier},
+  html={https://doi.org/10.1016/j.energy.2018.04.057},
+  preview={HTL_TEA.jpg},
+  abstract={A techno-economic assessment was conducted to estimate the capital and operating costs of a hypothetic biofuel system based on hydrothermal liquefaction (HTL) of forest residues in British Columbia. Three scenarios were investigated to understand how supply chain designs could influence the system's economic performance. The minimum selling price (MSP) of HTL biofuels was found to be 63%–80% higher than that of petroleum fuels. Converting forest residues to bio-oil and wood pellet before being transported to the conversion facility can lower the variable operating cost but not the MSP of HTL biofuels, due to the considerable increase in capital investment. Processing parameters such as the yield of bio-oil and biofuel can significantly influence the MSP of HTL biofuels, therefore, technology advancement can make great contribution in reducing the production cost. Alternatively, a high carbon tax is needed to make the HTL biofuels competitive with petroleum fuels.}
+}
+
+@article{jiang2018analysis,
+  abbr={},
+  selected={false},
+  title={Analysis of wind turbine Gearbox's environmental impact considering its reliability},
+  author={Jiang, L and Xiang, D and Tan, YF and Nie, YH and Cao, HJ and Wei, YZ and Zeng, D and Shen, YH and Shen, G},
+  journal={Journal of cleaner production},
+  volume={180},
+  pages={846--857},
+  year={2018},
+  publisher={Elsevier},
+  html={https://doi.org/10.1016/j.jclepro.2018.01.078},
+  preview={wind_turbine_gearbox_LCA.jpg},
+  abstract={Wind turbines transform wind energy into electricity and it has a negative environmental impact during manufacturing or transportation. Gearbox is one of the most important components of wind turbine and its reliability is of great concern in industry. So this study performed a Life Cycle Assessment (LCA) to evaluate the environmental impact of wind turbine gearbox considering its reliability, with a “cradle-to-grave” approach. To quantify the influence of wind turbine gearbox's reliability on its environmental impact and provide a more realistic and accurate result, reliability analysis was integrated into LCA model. The reliability of gearbox determines not only the required amount of gearbox to achieve its design life but also the number of components which can be reused in next gearbox, both of which affect the environmental performance. First, the method to calculate these two parameters was described, afterwards, these two parameters would be used in the LCA model. Then, a 2 MW wind turbine gearbox with two recycling scenarios was used as the case study. The results show that the life cycle assessment of the gearbox is dominated by the manufacture process, and the reuse of components can reduce the impact around 10%. The reliability sensitivity analysis indicates that the environmental impact increases 25.25% as gearbox's reliability is reduced from 78.25% to 40.03%. Therefore, by taking reliability information into consideration when evaluating its environmental impact, a more accurate and realistic assessment result can be achieved.}
 }

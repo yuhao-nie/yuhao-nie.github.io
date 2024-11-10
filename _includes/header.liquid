@@ -1,7 +1,16 @@
 <header>
+  <!-- Inline CSS for Social Icons -->
+  <style>
+    .social-icons i {
+      font-size: 32px; /* Adjust icon size here */
+    }
+  </style>
+
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      
+
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -24,6 +33,10 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+      <!-- Social Icons on the left side -->
+      <div class="navbar-brand social-icons">
+        {% include social.liquid %}
+      </div>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
