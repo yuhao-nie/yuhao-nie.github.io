@@ -27,7 +27,7 @@ My research lies at the interface of **energy systems**, **sustainability**, and
 
 * **how environmnetal factors, particularly weather and climate, influence energy systems**. This research thread leverages **mutlimodal sensor data** (e.g., *in situ* meaurements, and remote sensing imagery) and advanced **machine learning** methods to forecast renewable energy generation under changing weather and climate, enabling more reliable and resilient energy system design and operation.
 
-* **how energy systems, in turn, impact the environment.** This direction combines **system modeling** with **life cycle analysis** to quantify the environmental and socioeconomic impacts of emerging energy technologies and services. It also employs **remote sensing** and **machine learning** to monitor the energy transition, ensuring that energy deployments align with sustainable development goals.
+* **how energy systems, in turn, impact the environment.** This direction combines **system modeling** with **life cycle analysis** to quantify the environmental and socioeconomic impacts of emerging energy technologies and services. It also employs **remote sensing** and **machine learning** to monitor the energy transition, e.g., mapping energy facilities, tracking energy emissions, to ensure that energy deployments align with sustainable development goals.
 
 
 
