@@ -23,7 +23,7 @@ I am a Michael Hammer Postdoctoral Fellow at MIT <a href='https://idss.mit.edu/'
 
 Previously, I received my Ph.D. in Energy Science and Engineering from Stanford University in 2023 and my M.A.Sc in Chemical Engineering from the University of British Columbia in 2018. I obtained my B.Eng. in Environmental Engineering from Harbin Institute of Technology in 2015.
 
-My research lies at the interface of **energy systems**, **sustainability**, and **artificial intelligence**. To help achieve energy sustainability, I use novel data and computational algorithms to study the interplay between energy and the environment. Specifically, I focus on understanding
+My research lies at the interface of **energy systems**, **sustainability**, and **artificial intelligence**. I use novel data and computational algorithms to study the interplay between energy and the environment. Specifically, I focus on understanding
 
 * **how environmnetal factors, particularly weather and climate, influence energy systems**. This research thread leverages **mutlimodal sensor data** (e.g., *in situ* meaurements, and remote sensing imagery) and advanced **machine learning** methods to forecast renewable energy generation under changing weather and climate, enabling more reliable and resilient energy system design and operation.
 
