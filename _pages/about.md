@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: 
@@ -19,6 +19,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Michael Hammer Postdoc Fellow at <a href='https://idss.mit.edu/'>MIT Institute for Data, Systems, and Society</a>, working with Professor <a href='https://sherriewang.github.io/'>Sherrie Wang</a> on remote sensing and machine learning for applications in agriculture and energy. My research interest also lies in developing machine learning systems, assessment tools and optimization models to address challenges in transition to sustainable energy systems.
+I am a Michael Hammer Postdoctoral Fellow at MIT <a href='https://idss.mit.edu/'>Institute for Data, System, and Society</a>. I am also part of the <a href='https://lids.mit.edu/'>Laboratory for Information and Decision Systems</a> and the <a href='https://earthintelligence.mit.edu/'>Earth Intelligence Lab</a>. 
 
-Previously, I received my Ph.D. in Energy Science and Engineering from Stanford University, advised by Professor <a href='https://profiles.stanford.edu/adam-brandt'>Adam Brandt</a>, and my M.A.Sc in Chemical Engineering from University of British Columbia (UBC), under the guidance of Professor <a href='https://chbe.ubc.ca/xiaotao-bi/'>Xiaotao Tony Bi</a>. I obtained my B.Eng. in Environmental Engineering from Harbin Institute of Technology (HIT).
+Previously, I received my Ph.D. in Energy Science and Engineering from Stanford University in 2023 and my M.A.Sc in Chemical Engineering from the University of British Columbia in 2018. I obtained my B.Eng. in Environmental Engineering from Harbin Institute of Technology in 2015.
+
+My research lies at the interface of **energy systems**, **sustainability**, and **artificial intelligence**. To help achieve energy sustainability, I use novel data and computational algorithms to study the interplay between energy and the environment. Specifically, I focus on understanding
+
+* **how environmnetal factors, particularly weather and climate, influence energy systems**. This research thread leverages **mutlimodal sensor data** (e.g., *in situ* meaurements, and remote sensing imagery) and advanced **machine learning** methods to forecast renewable energy generation under changing weather and climate, enabling more reliable and resilient energy system design and operation.
+
+* **how energy systems, in turn, impact the environment.** This direction combines **system modeling** with **life cycle analysis** to quantify the environmental and socioeconomic impacts of emerging energy technologies and services. It also employs **remote sensing** and **machine learning** to monitor the energy transition, ensuring that energy deployments align with sustainable development goals.
+
+
+
+<!--
+(1) improve renewable energy systems management under changing weather and climate, and (2) quantify the environmental and socioeconomic impacts of energy.
+
+-->
