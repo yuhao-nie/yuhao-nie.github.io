@@ -25,7 +25,7 @@ Previously, I received my Ph.D. in Energy Science and Engineering from Stanford 
 
 My research lies at the interface of **energy systems**, **sustainability**, and **artificial intelligence**. I use novel data and computational algorithms to study the interplay between energy and the environment. Specifically, I focus on understanding
 
-* **how environmnetal factors, particularly weather and climate, influence energy systems**. This line of research leverages **mutlimodal data** (e.g., remote sensing imagery, weather and climate observations) and advanced **machine learning** methods to assess renewable resource availability, forecast energy generation, and further inform the design and operation of more reliable and resilient energy systems.
+* **how environmnetal factors, particularly weather and climate, influence energy systems**. This line of research leverages **multimodal data** (e.g., remote sensing imagery, weather and climate observations) and advanced **machine learning** methods to assess renewable resource availability, forecast energy generation, and further inform the design and operation of more reliable and resilient energy systems.
 
 * **how energy systems, in turn, impact the environment.** This research thread combines **system modeling** with **life cycle analysis** to quantify the environmental and socioeconomic impacts of emerging energy technologies and services. It also employs **remote sensing** and **machine learning** to monitor the energy transition, e.g., mapping energy facilities, tracking energy emissions, to ensure that energy deployments align with sustainable development goals.
 
