@@ -57,17 +57,15 @@ layout: default
   </header>
 
   <article class="post-content">
-    {% comment %}
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
-        {% toc %}
+        <!-- TOC will be rendered in the Markdown content via {:toc} -->
       </div>
       <hr>
     {% endif %}
     <div id="markdown-content">
       {{ content }}
     </div>
-    {% endcomment %}
   </article>
 
   {% if page.related_publications %}
