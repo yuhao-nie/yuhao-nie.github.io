@@ -1,15 +1,15 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Energy Science and Engineering 
+    - title: Ph.D. in Energy Science and Engineering
       institution: Stanford University, Stanford, United States
       year: 2023
       description:
         - Advised by <a href='https://profiles.stanford.edu/adam-brandt'>Adam Brandt</a>
         #- title: Description 3.
-          #contents:
-            #- Sub-description 1.
-            #- Sub-description 2.
+        #contents:
+        #- Sub-description 1.
+        #- Sub-description 2.
     - title: M.A.Sc. in Chemical Engineering
       institution: University of British Columbia, Vancouver, Canada
       year: 2018
@@ -20,8 +20,8 @@
       institution: Harbin Institute of Technology, Harbin, China
       year: 2015
       #description:
-        #- <p style="display:inline">GPA:</p> 93.3/100.0, 1st rank out of 67 students
-        #- Advised by <a href='http://homepage.hit.edu.cn/sunkai?lang=en'>Kai Sun</a>
+      #- <p style="display:inline">GPA:</p> 93.3/100.0, 1st rank out of 67 students
+      #- Advised by <a href='http://homepage.hit.edu.cn/sunkai?lang=en'>Kai Sun</a>
 
 - title: Academic Appointments
   type: time_table
@@ -42,11 +42,11 @@
         - <p style="display:inline"><b>Industrial project</b> (with Dubai Energy and Water Authority):</p> Multi-camera network for solar forecasting in desert condition
         - <p style="display:inline"><b>Selected course project</b>:</p> <p style="display:inline">Optimal design of power generation network in California:</p> Moving towards 100% renewable electricity by 2045
           #contents:
-           # - Open-source sky image datasets for solar forecasting
-           # - Transfer learning for solar forecasting with multi-location data
-           # - Stochastic sky video prediction for probabilistic solar forecasting
-           # - Resampling and data augmentation for solar forecasting
-           # - Sky-condition-specific models for solar forecasting
+          # - Open-source sky image datasets for solar forecasting
+          # - Transfer learning for solar forecasting with multi-location data
+          # - Stochastic sky video prediction for probabilistic solar forecasting
+          # - Resampling and data augmentation for solar forecasting
+          # - Sky-condition-specific models for solar forecasting
     - title: Research Assistant
       institution: Dept. of Chemical and Biological Engineering, University of British Columbia
       year: 2015-2018
@@ -56,17 +56,17 @@
         - <p style="display:inline"><b>Co-op project</b>:</p> Life Cycle Analysis of Kakwa Derived LNG for Power Generation and District Heating in China
         - <p style="display:inline"><b>Selected course project</b>:</p> Multiple objective optimization of biofuel supply chain
           #contents:
-           # - Built life cycle and economic models for biofuels from forest residues
-           # - Compared the environmental and economic impacts of three different supply chain designs.
-           # - Conducted sensitivity analysis and discounted cash flow rate of return analysis via Excel VBA.
-           # - Contributed to the first performance benchmark of converting biomass to biofuels in British Columbia, Canada.
+          # - Built life cycle and economic models for biofuels from forest residues
+          # - Compared the environmental and economic impacts of three different supply chain designs.
+          # - Conducted sensitivity analysis and discounted cash flow rate of return analysis via Excel VBA.
+          # - Contributed to the first performance benchmark of converting biomass to biofuels in British Columbia, Canada.
     #- title: Research Assistant
-      #institution: School of Environment, Harbin Institute of Technology
-      #year: 2013-2015
-      #description:
-        #- title: <b>Environmental and economic analysis of liquid fuels from forest residues</b>
-        #- <p style="display:inline"><b>Undergrate capstone project</b>:</p> Synthesis of gold colloid for detection of Pyrene in water
-        #- <p style="display:inline"><b>Undergraduate Scientific Innovation Program</b>:</p> Separation of sugar and acid from corn stover acidolysis Solution by Electrodialysis
+    #institution: School of Environment, Harbin Institute of Technology
+    #year: 2013-2015
+    #description:
+    #- title: <b>Environmental and economic analysis of liquid fuels from forest residues</b>
+    #- <p style="display:inline"><b>Undergrate capstone project</b>:</p> Synthesis of gold colloid for detection of Pyrene in water
+    #- <p style="display:inline"><b>Undergraduate Scientific Innovation Program</b>:</p> Separation of sugar and acid from corn stover acidolysis Solution by Electrodialysis
 
 - title: Internship
   type: time_table
@@ -87,16 +87,16 @@
       items:
         - Michael Hammer Postdoctoral Fellowship, MIT
     - year: 2017
-      items: 
+      items:
         - Mitacs Accelerate Program Fellowship, Mitacs Canada
     - year: 2015
-      items: 
+      items:
         - Faculty of Applied Science Graduate Fellowship, University of British Columbia
         #- International Tuition Award, University of British Columbia
         - Mitacs Globalink Graduate Fellowship, Mitacs Canada
         - Outstanding Graduate, Harbin Institute of Technology
     - year: 2014
-      items: 
+      items:
         - 2nd Prize, Undergraduate Scientific Innovation Program, Harbin Institute of Technology
         - Outstanding Student Award, Ministry of Education of Heilongjiang Province
         #- Endress+Hauser Scholarship, Endress+Hauser Flowtec (China) Co., Ltd.
@@ -106,9 +106,8 @@
         - Endress+Hauser Scholarship, Endress+Hauser Flowtec (China) Co., Ltd.
         - Scholarship for Academic Excellence, Harbin Institute of Technology
     - year: 2012
-      items:    
+      items:
         - National Scholarship, Ministry of Education of China
-
 
 - title: Teaching
   type: time_table
@@ -116,7 +115,7 @@
     - title: Teaching Assistant
       institution: Stanford University, Stanford, United States
       year: Mar.-Jun. 2021
-      items: 
+      items:
         - <p style="display:inline">ENERGY 291:</p> Optimization of Energy Systems, 30 students #[<a href='https://drive.google.com/file/d/1vY5HcQc4SxW-k3HI4ZguBEld-LLlDh4i/view'>Students' feedback</a>]
     - title: Co-instructor and Teaching Assistant
       institution: University of British Columbia, Vancouver, Canada
